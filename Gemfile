@@ -2,6 +2,6 @@
 source "https://rubygems.org"
 gem 'colorize'
 gem 'rmagick'
-gem 'thor'
+gem 'slop'
 
 gemspec
