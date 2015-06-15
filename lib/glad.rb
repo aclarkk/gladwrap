@@ -4,8 +4,13 @@ require "rmagick"
 require "slop"
 
 class Glad
+
   opts = Slop.parse do |o|
-    o.string  '--device', '-d', 'Which device to use', default: 'iphone6_black'
+    o.string  '--device', '-d', 'Which device to use (iphone6_black, iphone6_white, more coming soon)', default: 'iphone6_black'
+    o.on '--help', '-h' do
+      puts o
+      exit
+    end
   end
 
   begin
@@ -29,4 +34,5 @@ class Glad
     puts e.message
     puts opts
   end
+
 end
