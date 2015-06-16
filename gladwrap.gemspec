@@ -6,10 +6,10 @@ Gem::Specification.new do |gem|
   gem.homepage      = "http://alanclark.biz"
 
   # gem.files         = `git ls-files`.split($\)
-  gem.files         = ["lib/glad.rb","bin/glad"]
-  gem.executables   = ["glad"]
+  gem.files         = ["lib/gladwrap.rb","bin/gladwrap"]
+  gem.executables   = ["gladwrap"]
   #gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "glad"
+  gem.name          = "gladwrap"
   gem.require_paths = ["lib"]
-  gem.version       = "0.0.7"
+  gem.version       = "1.0.0.pre"
 end 
