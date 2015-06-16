@@ -3,7 +3,7 @@ require "bundler/setup"
 require "rmagick"
 require "slop"
 
-class Glad
+class Gladwrap
 
   opts = Slop.parse do |o|
     o.string  '--device', '-d', 'Which device to use (iphone6_black, iphone6_white, more coming soon)', default: 'iphone6_black'
