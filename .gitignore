@@ -1,2 +1,4 @@
 *.gem
+test.png
 Gemfile.lock
+wraps/
