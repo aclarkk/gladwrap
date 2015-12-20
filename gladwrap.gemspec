@@ -1,4 +1,4 @@
-Gem::Specification.new do |gem|  
+Gem::Specification.new do |gem|
   gem.authors       = ["Alan Clark"]
   gem.email         = ["alanjosephclark@gmail.com"]
 
@@ -6,11 +6,11 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{More info here: https://github.com/aclarkk/gladwrap.}
   gem.homepage      = "https://github.com/aclarkk/gladwrap"
 
-  # gem.files         = `git ls-files`.split($\)
-  gem.files         = ["lib/gladwrap.rb","bin/gladwrap"]
+  gem.files         = `git ls-files`.split($\)
+  # gem.files         = ["lib/gladwrap.rb","bin/gladwrap"]
   gem.executables   = ["gladwrap"]
   #gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "gladwrap"
   gem.require_paths = ["lib"]
   gem.version       = "1.0.1"
-end 
+end
