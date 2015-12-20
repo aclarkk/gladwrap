@@ -39,7 +39,7 @@ class Gladwrap
 
     files.each_with_index do |f, index|
       overlay = Magick::Image.read("#{f}").first
-      bg.composite!(overlay, 51, 217, Magick::OverCompositeOp)
+      bg.composite!(overlay, 52, 217, Magick::OverCompositeOp)
       bg.write("./#{output_directory}/#{f}")
       puts "writing #{f} to #{output_directory}"
     end
