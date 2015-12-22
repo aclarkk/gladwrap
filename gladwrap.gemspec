@@ -9,4 +9,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.name          = "gladwrap"
   gem.version       = "1.2.5"
+  gem.add_runtime_dependency "slop",["= 4.2.1"]
+  gem.add_runtime_dependency "rmagick",["= 2.15.4"]
 end
