@@ -1,7 +1,7 @@
 require "rubygems"
 require "bundler/setup"
 require "fileutils"
-require "rmagick"
+require "RMagick"
 require "slop"
 
 class Gladwrap
