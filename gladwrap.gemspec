@@ -8,5 +8,5 @@ Gem::Specification.new do |gem|
   gem.executables   = ["gladwrap"]
   gem.require_paths = ["lib"]
   gem.name          = "gladwrap"
-  gem.version       = "1.2.4"
+  gem.version       = "1.2.5"
 end
